@@ -21,19 +21,10 @@ git clone https://github.com/chunnnn10/Saft-Browsing/
 ```bash
 npm install
 ```
+
 這將安裝 `package.json` 中列出的所有依賴項，確保您擁有運行該擴展所需的所有庫和工具。
+
 > **注意**: 確保您的系統中已安裝 Node.js 和 npm。如果尚未安裝，請訪問 [Node.js 官方網站](https://nodejs.org/) 進行下載和安裝。
-```
-### 使用 yarn 安裝專案依賴（如果有的話）
-如果您的項目使用的是 Yarn 而不是 npm，您可以添加類似的部分：
-```markdown
-## 安裝專案依賴
-在本地運行該擴展之前，您需要安裝專案中的依賴項。在終端中執行以下指令：
-```bash
-yarn install
-```
-這將安裝 `package.json` 中列出的所有依賴項，確保您擁有運行該擴展所需的所有庫和工具。
-> **注意**: 確保您的系統中已安裝 Yarn。如果尚未安裝，請訪問 [Yarn 官方網站](https://classic.yarnpkg.com/en/docs/install/) 獲取安裝說明。
 ```
 
 ## 使用
