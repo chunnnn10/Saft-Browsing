@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "safe browsing",
+    "version": "1.0",
+    "description": "記錄和管理員工的網絡行為。",
+    "permissions": ["webRequest", "tabs", "storage", "webNavigation"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": ["<all_urls>"]
+  }
+  

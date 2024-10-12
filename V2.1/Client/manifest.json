@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Employee Web Tracking",
+  "version": "2.1",
+  "description": "記錄並管理員工上網行為",
+  "permissions": [
+    "declarativeNetRequest",
+    "storage",
+    "tabs",
+    "alarms"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "dynamic_rules_1",
+        "enabled": true,
+        "path": "rules.json" 
+      }
+    ]
+  }
+}
